@@ -1,0 +1,263 @@
+/* CSS Reset */
+body{
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.container{
+    max-width: 1024px;
+    margin-left: auto !important;
+    margin-right: auto !important;
+}
+
+/* Header and Navigation Menu */
+                /* Header Aria */
+                #header-aria{
+                    display: flex;
+                    background-color: rgb(171, 24, 61);
+                    margin-top: 5px;
+                    color: white;
+                    border: 1px solid black;
+                }
+
+                #header-aria img{
+                    padding: 10px;
+                    margin: 10px;
+                }
+
+                .website-title {
+                    text-align: center;
+                    margin: auto;
+                }
+
+                .head-title {
+                    font-size: 3rem;
+                }
+
+                .head-url {
+                    font-size: 1.5rem;
+                }
+
+/* Navigation Menu */
+
+                #navbar ul{
+                    display: grid;
+                    margin: 0.1px;
+                    grid-template-columns: repeat(auto-fit, minmax(126px, 1fr));
+                    padding: 0px;
+                    grid-gap: 1px;
+                }
+                #navbar ul li{
+                    display: flex;
+                    justify-content: center;
+                    list-style: none;
+                    padding: 15px 0px;
+                    background-color: black;
+                }
+                #navbar ul li a{
+                    text-decoration: none;
+                    color: white;
+                }
+
+/* Latest News 'Moving Text' */
+                #moving{
+                    font-weight: bold;
+                    margin: 12px 0px;
+                    text-align: center;
+                }
+                .first-moving{
+                    margin: 15px 0px;
+                    font-size: 1.3rem;
+                }
+
+/* Follow on Twitter and YouTube */
+                #follow-twitter{
+                    display: flex;
+                    margin: auto;
+                    background-color: rgb(29 155 240);
+                    width: 168px;
+                    padding: 4px;
+                    border-radius: 42px;
+                    justify-content: center;
+                    cursor: pointer;
+                }
+                #follow-twitter:hover{
+                    background-color: rgb(12, 122, 191);;
+                }
+                #follow-twitter img{
+                    width: 15px;
+                    margin-right: 5px;
+                    filter: invert(1);
+                }
+                #follow-twitter span{
+                    font-size: .75rem;
+                    font-weight: bold;
+                    color: white;
+                }
+                #follow-youtube{
+                    font-size: 1.45rem;
+                    color: white;
+                    padding: 5px 42px 9px 42px;
+                    margin: 4px auto;
+                    display: block;
+                    width: 258px;
+                    font-weight: bold;
+                    background-color: rgb(0, 0, 160);
+                }
+
+/* Multicolored Boxes */
+                #color-box-container{
+                    display: grid;
+                    grid-template-columns: repeat(4, 1fr);
+                    font-weight: bold;
+                    text-align: center;
+                    margin-top: 23px;
+                    font-size: 1.3rem;
+                    column-gap: 13px;
+                    row-gap: 4px;
+                }
+                .color-box{
+                    color: white;
+                    padding: 4px;
+                    cursor: pointer;
+                    width: 100%;
+                }
+                #color-box1{
+                    background-color: rgb(134, 138, 8);
+                }
+                #color-box2{
+                    background-color: rgb(4, 4, 180);
+                }
+                #color-box3{
+                    background-color: rgb(251, 94, 3);
+                }
+                #color-box4{
+                    background-color: rgb(140, 1, 1);
+                }
+                #color-box5{
+                    background-color: rgb(251, 3, 3);
+                }
+                #color-box6{
+                    background-color: rgb(11, 97, 11);
+                }
+                #color-box7{
+                    background-color: rgb(255, 0, 191);
+                }
+                #color-box8{
+                    background-color: rgb(0, 128, 255);
+                }
+
+/* Main Post Section | Latest Vacancy | Result | Admit Cark | Apply Online */
+                #post{
+                    display: grid;
+                    grid-template-columns: 1fr 1fr 1fr;
+                    grid-template-rows: auto;
+                    padding: 0px 15px;
+                    margin-top: 50px;
+                    grid-gap: 20px;
+                }
+                #admission{
+                    grid-column-start: 3;
+                    grid-row: 2 / span 2;
+                }
+                .post{
+                    width: 100%;
+                    border: 2px solid rgb(210 105 30);
+                }
+                .post-heading{
+                    background-color: rgb(171, 24, 61);
+                    padding: 6px 0px;
+                    text-align: center;
+                }
+                .post-heading a{
+                    color: white;
+                    text-decoration: none;
+                    font-size: 1.5rem;
+                    font-weight: bold;
+                }
+                .post-content li{
+                    margin-bottom: 16px;
+                }
+                .post-content a{
+                    color: blue;
+                }
+                .post-content a:active{
+                    color: red;
+                }
+                .view-more{
+                    text-align: right;
+                    padding: 14px 18px;
+                }
+                .view-more a{
+                    text-decoration: none;
+                    font-weight: bold;
+                    font-size: 1.2rem;
+                    color: blue;
+                }
+                .view-more a:active{
+                    color: red;
+                }
+                img#dmca-procted {
+                    margin: 12px auto;
+                    display: block;
+                }
+
+/* Information Section */
+                .information-container{
+                    width: 75%;
+                    margin: 40px auto;
+                    border: 2px solid rgb(210 105 30);
+                }
+                .information-container span{
+                    background-color: rgb(171, 24, 61);
+                    padding: 6px 0px;
+                    display: block;
+                    text-align: center;
+                    color: white;
+                    font-size: 1.5rem;
+                    font-weight: bold;
+                    width: 100%;
+                }
+                .information-container p{
+                    text-align: center;
+                    padding: 0px 15px
+                }
+                .information-container li{
+                    text-align: center;
+                    padding: 0px 15px
+                }
+
+/* Footer */
+                footer{
+                    display: grid;
+                    grid-template-columns: 1fr 1fr 2fr;
+                    width: 75%;
+                }
+                .footer-menu{
+                    width: 100%;
+                }
+                footer h2{
+                    font-size: 1.3rem;
+                }
+                footer a{
+                    display: block;
+                    text-decoration: none;
+                    color: rgba(0, 0, 0, 0.75);
+                    margin-bottom: 10px;
+                    font-size: .8rem;
+                }
+                .more-items{
+                    display: flex;
+                    flex-wrap: wrap;
+                }
+                .more-items a{
+                    width: 33%;
+                }
+
+/* Utility Classes */
+.center{
+    text-align: center;
+}
+.bold{
+    font-weight: bold;
+}
