@@ -10,6 +10,15 @@ body{
     margin-right: auto !important;
 }
 
+@media screen and (max-width: 540px) {
+    .head-title {
+        font-size: 4rem;
+    }
+    .head-url {
+        font-size: 1.8rem;
+    }
+}
+
 /* Header and Navigation Menu */
                 /* Header Aria */
                 #header-aria{
@@ -18,11 +27,13 @@ body{
                     margin-top: 5px;
                     color: white;
                     border: 1px solid black;
+                    height: 185px;
                 }
 
                 #header-aria img{
                     padding: 10px;
                     margin: 10px;
+                    position: absolute;
                 }
 
                 .website-title {
@@ -41,17 +52,16 @@ body{
 /* Navigation Menu */
 
                 #navbar ul{
-                    display: grid;
-                    margin: 0.1px;
-                    grid-template-columns: repeat(auto-fit, minmax(126px, 1fr));
+                    display: flex;
+                    margin: -0.9px;
                     padding: 0px;
-                    grid-gap: 1px;
                 }
                 #navbar ul li{
                     display: flex;
-                    justify-content: center;
                     list-style: none;
-                    padding: 15px 0px;
+                    flex-grow: 5;
+                    padding: 17px 22px;
+                    margin: 0.5px;
                     background-color: black;
                 }
                 #navbar ul li a{
